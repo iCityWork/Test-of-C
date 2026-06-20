@@ -18,3 +18,6 @@ obj/
 #*.xex
 *.map
 *.lbl
+
+# Per-machine platform config - not committed
+config.mk
