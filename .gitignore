@@ -1,6 +1,6 @@
 # ── CC65 Build Artifacts ──────────────────────────────────────
 obj/
-builds/
+#builds/
 
 # ── VS Code Local Settings ────────────────────────────────────
 # Commit .vscode/tasks.json, c_cpp_properties.json, settings.json
