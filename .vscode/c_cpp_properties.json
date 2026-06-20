@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "name": "Atari 8-bit (CC65)",
+
+      "includePath": [
+        "${workspaceFolder}/include",
+        "/usr/local/bin/cc65/include",
+        "/usr/local/bin/cc65/include/atari"
+      ],
+
+      // These are the defines CC65 itself sets when targeting Atari.
+      // Declaring them here keeps IntelliSense consistent with what
+      // the real compiler sees — #ifdef __ATARI__ blocks will be
+      // correctly highlighted and resolved.
+      "defines": [
+        "__CC65__",
+        "__ATARI__",
+        "__ATARIXL__"
+      ],
+
+      // Tell IntelliSense to parse as C89 — CC65 supports a subset
+      // of C99 but its own headers are written to C89 standards.
+      "cStandard": "c99",
+
+      // Use GCC ARM mode for closest 8-bit register-width behavior.
+      // Not perfect but far better than MSVC mode for this target.
+      "intelliSenseMode": "gcc-arm",
+
+      // Suppress warnings about unknown pragmas CC65 uses
+      // (pragma bss-name, pragma rodata-name, etc.)
+      "compilerArgs": [
+        "-Wno-unknown-pragmas"
+      ]
+    }
+  ],
+  "version": 4
+}
