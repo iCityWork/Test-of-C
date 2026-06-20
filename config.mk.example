@@ -4,7 +4,7 @@
 #  Windows example:
 #    CC65_HOME := C:/cc65
 #    ALTIRRA   := C:/Program Files/Altirra/Altirra64.exe
-#    EMULATOR  := "$(ALTIRRA)" /run
+#    EMULATOR  := "$(ALTIRRA)" 
 #    MKDIR     := mkdir -p
 #    RMDIR     := rm -rf
 #
