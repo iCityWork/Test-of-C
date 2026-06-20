@@ -15,6 +15,6 @@ builds/
 # ── Atari disk images (usually generated, not source) ─────────
 # Comment these out if you store reference .atr files in the repo
 *.atr
-*.xex
+#*.xex
 *.map
 *.lbl
