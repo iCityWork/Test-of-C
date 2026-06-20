@@ -12,6 +12,7 @@ int main(void)
     screen_init();
 
     cputs("  CC65 Multi-File Build\r\n");
+    cputs("  By Gavin Haubelt\r\n");
     cputs("  =====================\r\n\r\n");
 
     cprintf("  Build target  : %s\r\n", util_target_name());
